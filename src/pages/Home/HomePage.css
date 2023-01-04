@@ -1,0 +1,626 @@
+/* .... HEROSECTION ....  */
+.heroSection {
+  padding: 2.5% 5%;
+}
+
+.heroSection_Container {
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 5%;
+  background: #c2c8da;
+  border-radius: 20px;
+}
+
+.heroSection_Text {
+  width: 30%;
+}
+
+.heroSection_Text h1 {
+  font-size: 4rem;
+  font-weigth: 900;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.white {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: white;
+}
+
+.yellow {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #e6c744;
+}
+
+.heroSection_Text p {
+  margin: 30px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+}
+
+.heroSection_Text button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  border: 0;
+  outline: 0;
+}
+
+.heroSection_Text button:hover {
+  background: #e6c744;
+  transition: 0.5s all ease-in-out;
+}
+
+.heroSection_Text button:active {
+  /* background:#e6c744; */
+  border: 2px solid black;
+}
+
+.cta_Button {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  color: white;
+  background: black;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+}
+
+.heroSection_ImageContainer {
+  width: 60%;
+  height: 450px;
+}
+
+.heroSection_ImageContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+/* .... SPONSORS ....  */
+.sponsorsContainer {
+  background: #e6c744;
+  padding: 2.5% 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sponsorsContainer img {
+  width: 100px;
+  height: 50px;
+}
+
+/* .... NEW ARRIVALS ....  */
+
+.newArrivals_Section {
+  padding: 2.5% 5%;
+}
+
+.newArrivals_Title h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  /* z-index: 1; */
+}
+
+.position {
+  margin: -20px 0 0 160px;
+  /* transform: rotate(-15deg); */
+}
+
+.newArrivals_Container {
+  margin: 50px 0 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  justify-content: space-between;
+}
+
+/* .... PAYDAY SECTION ....  */
+.paydaySection {
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  background: #e6c744;
+}
+
+.paydaySection_ImageContainer {
+  width: 50%;
+  display: flex;
+}
+
+.paydaySection_ImageContainer img {
+  width: 100%;
+}
+
+.paydaySection_About {
+  width: 35%;
+}
+
+.paydaySection_About h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.paydaySection_About p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.paydaySection_About p span {
+  font-weight: 900;
+}
+
+.paydaySection_About button {
+  padding: 7px 20px;
+}
+
+/* .... YOUNG'S FAVOURITE ....   */
+.youngFavouriteSection {
+  padding: 10% 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.youngFavouriteSection_Title h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.youngFavouriteSection_Item {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  justify-content: space-between;
+}
+
+.youngFavouriteSection_downloadApp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.downloadApp {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-left: 3rem;
+  justify-content: center;
+}
+
+.downloadApp h1 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.downloadApp p {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #c2c8da;
+}
+
+.downloadButton {
+  display: flex;
+  gap: 2rem;
+}
+
+.youngFavouriteSection_Img {
+  width: 48%;
+}
+
+.youngFavouriteSection_Img img {
+  width: 100%;
+}
+
+/* .... NEWSLETTER ....  */
+.newsletterSection {
+  padding: 7.5% 10%;
+  background: #e6c744;
+  align-items: center;
+}
+
+.newsletterSection_Container {
+  width: 65%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.newsletterSection_Title h1 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: white;
+}
+
+.newsletterSection_Text p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: white;
+  margin: 16px 0 32px;
+}
+
+.newsletterSection_InputBar {
+  padding: 5px;
+  background: white;
+  border-radius: 7px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.newsletterSection_InputBar input {
+  outline: 0;
+  border: 0;
+  padding: 5px 15px;
+  height: inherit;
+  width: 300px;
+}
+
+.newsletterSection_InputBar button {
+  padding: 7px 15px;
+  width: 90px;
+}
+
+@media screen and (max-width: 768px) {
+  .heroSection_Container {
+    flex-direction: column;
+  }
+
+  .heroSection_Text {
+    width: 100%;
+    margin: 0 auto 30px;
+  }
+
+  .heroSection_Text h1 {
+    font-size: 3.5rem;
+  }
+
+  .white {
+    padding: 5px 7px;
+  }
+
+  .yellow {
+    padding: 5px 7px;
+  }
+
+  .heroSection_Text p {
+    text-align: center;
+    margin: 20px 0 30px;
+  }
+
+  .heroSection_ImageContainer {
+    width: 100%;
+    height: 400px;
+  }
+
+  .sponsorsContainer {
+    justify-content: space-between;
+    overflow: scroll;
+  }
+
+  .sponsorsContainer img {
+    width: 70px;
+    height: 30px;
+  }
+
+  .newArrivals_Title h2 {
+    font-size: 1.8rem;
+  }
+
+  .position {
+    margin:-20px 0 0 130px;
+  }
+
+  .newArrivals_Container {
+    margin: 30px 0 20px;
+    grid-template-columns: 45% 45%;
+  }
+
+  .paydaySection_ImageContainer {
+    width: 40%;
+  }
+
+  .paydaySection_About {
+    width: 50%;
+  }
+
+  .paydaySection_About h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+  }
+
+  .paydaySection_About p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+  }
+
+  .paydaySection_About p span {
+    font-weight: 900;
+  }
+
+  .paydaySection_About button {
+    padding: 5px 15px;
+  }
+
+  .youngFavouriteSection {
+    padding: 7.5 5%;
+    gap: 2.5rem;
+  }
+
+  .youngFavouriteSection_Title h1 {
+    font-size: 2rem;
+  }
+
+  .youngFavouriteSection_Item {
+    grid-template-columns: 47% 47%;
+  }
+
+  .youngFavouriteSection_downloadApp {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .downloadApp {
+    padding: 0;
+    width: 100%;
+    gap: 1.5rem;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .downloadApp h1 {
+    font-size: 1.8rem;
+  }
+
+  .downloadButton {
+    margin: 0 auto;
+    gap: 1.8rem;
+  }
+
+  .youngFavouriteSection_Img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .newsletterSection {
+    padding: 5% 10%;
+  }
+
+  .newsletterSection_Container {
+    width: 80%;
+  }
+
+  .newsletterSection_Title h1 {
+    font-size: 1.8rem;
+  }
+
+  .newsletterSection_Text p {
+    font-size: 1rem;
+    margin: 10px 0 24px;
+  }
+
+  .newsletterSection_InputBar {
+    padding: 5px;
+    background: white;
+    border-radius: 7px;
+    margin: 0 auto;
+  }
+
+  .newsletterSection_InputBar input {
+    outline: 0;
+    border: 0;
+    padding: 5px 15px;
+    height: inherit;
+  }
+
+  .newsletterSection_InputBar button {
+    padding: 5px 15px;
+  }
+}
+
+@media screen and (max-width: 586px) {
+  .heroSection_Container {
+    padding: 10% 5%;
+  }
+
+  .heroSection_Text h1 {
+    font-size: 2.5rem;
+  }
+
+  .sponsorsContainer {
+    justify-content: center;
+    overflow: scroll;
+    gap: 2rem;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .sponsorsContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+  .newArrivals_Title h2 {
+    font-size: 1.8rem;
+  }
+
+  .position {
+  margin: -5% 0 0 30%;
+  }
+
+  .newArrivals_Container {
+    grid-template-columns: 1fr;
+  }
+
+  .paydaySection {
+    flex-direction: column;
+  }
+
+  .paydaySection_ImageContainer {
+    width: 90%;
+    margin: 0 auto 30px;
+  }
+
+  .paydaySection_About {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .paydaySection_About h1 {
+    font-size: 3rem;
+  }
+
+  .paydaySection_About p {
+    font-size: 1rem;
+  }
+
+  .paydaySection_About button {
+    padding: 7px 12px;
+  }
+
+  .youngFavouriteSection {
+    padding: 5%;
+    gap: 2rem;
+  }
+
+  .youngFavouriteSection_Title h1 {
+    font-size: 2rem;
+  }
+
+  .youngFavouriteSection_Item {
+    grid-template-columns: 1fr;
+  }
+
+  .newsletterSection {
+    padding: 5%;
+  }
+
+  .newsletterSection_Container {
+    width: 90%;
+  }
+
+  .newsletterSection_Title h1 {
+    font-size: 1.8rem;
+  }
+
+  .newsletterSection_Text p {
+    font-size: 1rem;
+    margin: 12px 0 24px;
+  }
+
+  .newsletterSection_InputBar {
+    padding: 5px;
+    background: white;
+    border-radius: 7px;
+    margin: 0 auto;
+  }
+
+  .newsletterSection_InputBar input {
+    outline: 0;
+    border: 0;
+    padding: 5px 15px;
+    height: inherit;
+  }
+
+  .newsletterSection_InputBar button {
+    padding: 5px 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .heroSection_Text h1 {
+    font-size: 2rem;
+  }
+
+  .newArrivals_Title h2 {
+    font-size: 1.5rem;
+  }
+
+  .paydaySection_ImageContainer {
+    width: 100%;
+  }
+
+  .paydaySection_About {
+    width: 100%;
+  }
+
+  .paydaySection_About h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .paydaySection_About p {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .paydaySection_About button {
+    padding: 5px 10px;
+  }
+
+  .youngFavouriteSection {
+    gap: 1.8rem;
+  }
+
+  .youngFavouriteSection_Img {
+    width: 100%;
+  }
+
+  .youngFavouriteSection_Title h1 {
+    font-size: 1.8rem;
+  }
+
+  .youngFavouriteSection_downloadApp {
+    gap: 1.8rem;
+  }
+
+  .downloadApp h1 {
+    font-size: 1.5rem;
+  }
+
+  .downloadButton {
+    gap: 1.5rem;
+  }
+
+  .newsletterSection_Title h1 {
+    font-size: 1.2rem;
+  }
+
+  .newsletterSection_Text p {
+    font-size: 1rem;
+  }
+
+  .newsletterSection_InputBar {
+    width: 300px;
+  }
+
+  .newsletterSection_InputBar input {
+    width: 210px;
+  }
+
+  .newsletterSection_InputBar button {
+    padding: 5px 10px;
+    width: 70px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .newsletterSection_InputBar {
+    width: 100%;
+  }
+
+  .newsletterSection_InputBar input {
+    width: 70%;
+  }
+
+  .newsletterSection_InputBar button {
+    padding: 5px 10px;
+    width: 70px;
+  }
+}
